@@ -2,14 +2,15 @@
 
 Sistema completo de gerenciamento de treinamentos empresariais construído com arquitetura de **microfrontends**, **microservices** e **serverless functions**.
 
-## 👥 Equipe
+##  Equipe
 
-- [Nome do Aluno 1]
-- [Nome do Aluno 2]
-- [Nome do Aluno 3]
-- [Nome do Aluno 4]
+- Andrey Ribeiro de Carvalho
+- Athon Ian Schimin Bilbao
+- Matheus Machado Pereira
+- Victor Hideyuki Tanaka
+- Yan Ferreira David
 
-## 🏗️ Arquitetura do Sistema
+##  Arquitetura do Sistema
 
 O WiseTraining foi desenvolvido seguindo os princípios de arquitetura distribuída e desacoplada:
 
@@ -49,9 +50,9 @@ O WiseTraining foi desenvolvido seguindo os princípios de arquitetura distribu�
 └──────────────────────────┘
 ```
 
-## 📦 Componentes da Arquitetura
+##  Componentes da Arquitetura
 
-### 1️⃣ Microfrontend (Frontend)
+###  Microfrontend (Frontend)
 
 **Tecnologia:** React 18 + Vite
 
@@ -77,7 +78,7 @@ npm run dev
 
 ---
 
-### 2️⃣ BFF - Backend for Frontend
+###  BFF - Backend for Frontend
 
 **Tecnologia:** Node.js + Express
 
@@ -110,7 +111,7 @@ npm start
 
 ---
 
-### 3️⃣ Microservice - Courses (Cursos)
+###  Microservice - Courses (Cursos)
 
 **Tecnologia:** Node.js + Express + Supabase
 
@@ -146,7 +147,7 @@ npm start
 
 ---
 
-### 4️⃣ Microservice - Companies & Employees (Empresas e Funcionários)
+###  Microservice - Companies & Employees (Empresas e Funcionários)
 
 **Tecnologia:** Node.js + Express + Supabase
 
@@ -187,7 +188,7 @@ npm start
 
 ---
 
-### 5️⃣ Serverless Functions (Edge Functions)
+###  Serverless Functions (Edge Functions)
 
 **Tecnologia:** Supabase Edge Functions (Deno)
 
@@ -263,7 +264,7 @@ As functions já estão deployadas no Supabase. Para re-deploy, use:
 
 ---
 
-## 🚀 Executando o Sistema Completo
+##  Executando o Sistema Completo
 
 ### Pré-requisitos:
 - Node.js 20+
@@ -323,7 +324,7 @@ Acesse: `http://localhost:5173`
 
 ---
 
-## 🐳 Deploy com Docker
+##  Deploy com Docker
 
 ### Construir Imagens:
 
@@ -363,7 +364,7 @@ docker run -p 80:80 wisetraining-frontend
 
 ---
 
-## 📝 Fluxo de Criação de Curso (Event-Driven)
+##  Fluxo de Criação de Curso (Event-Driven)
 
 ```
 ┌──────────┐    POST     ┌─────────┐   Aggregate   ┌────────────────────┐
@@ -410,30 +411,30 @@ docker run -p 80:80 wisetraining-frontend
 
 ---
 
-## 🎯 Características Técnicas
+## Características Técnicas
 
 ### Princípios de Arquitetura:
-- ✅ Separação de responsabilidades (SoC)
-- ✅ Microservices independentes
-- ✅ Event-driven architecture
-- ✅ BFF para otimização de APIs
-- ✅ Containerização com Docker
-- ✅ Database per service pattern (logicamente separado)
+-  Separação de responsabilidades (SoC)
+-  Microservices independentes
+-  Event-driven architecture
+-  BFF para otimização de APIs
+-  Containerização com Docker
+-  Database per service pattern (logicamente separado)
 
 ### Segurança:
-- 🔒 Row Level Security (RLS) no banco
-- 🔒 Password hashing com bcrypt
-- 🔒 Validação de dados em todas camadas
-- 🔒 CORS configurado
+-  Row Level Security (RLS) no banco
+-  Password hashing com bcrypt
+-  Validação de dados em todas camadas
+-  CORS configurado
 
 ### Observabilidade:
-- 📊 Health checks em todos serviços
-- 📊 Logs estruturados
-- 📊 Error handling centralizado
+-  Health checks em todos serviços
+-  Logs estruturados
+-  Error handling centralizado
 
 ---
 
-## 📚 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Frontend:** React 18, Vite, React Router
 - **BFF:** Node.js, Express, CORS
@@ -445,7 +446,7 @@ docker run -p 80:80 wisetraining-frontend
 
 ---
 
-## 📖 Documentação Adicional
+##  Documentação Adicional
 
 ### API Endpoints Completos:
 
@@ -468,7 +469,7 @@ companies (1) ──── (N) employees
 
 ---
 
-## 🤝 Contribuindo
+##  Contribuindo
 
 Este projeto foi desenvolvido como trabalho acadêmico para demonstrar arquitetura de microservices, microfrontends e serverless functions.
 
