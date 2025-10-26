@@ -1,0 +1,21 @@
+{
+  "name": "microservice-companies",
+  "version": "1.0.0",
+  "description": "Companies & Employees Microservice - WiseTraining Platform",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["microservice", "companies", "employees", "wisetraining"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "@supabase/supabase-js": "^2.39.0",
+    "bcrypt": "^5.1.1"
+  }
+}
